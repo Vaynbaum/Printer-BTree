@@ -1,14 +1,14 @@
 # Binary tree printer
 
-You can print a nice binary tree in the console.
+Вы можете распечатать красивое двоичное дерево в консоли.
 ***
 
-# How to use
+# Как использовать
 
-You need to create an instance of the `printer` class to be used (e.g. `ConsolePrinterBTree`). 
-Then create an instance of the `BTree` class and pass the `printer` to it
-(*by the way, you can add your own printers for different printing for the tree*).
-Then add the values and print them.
+Вам нужно создать экземпляр класса `printer`, который будет использоваться (например, `ConsolePrinterBTree`). 
+Затем создайте экземпляр класса `BTree` и передайте ему `printer`
+(*кстати, вы можете добавить свои собственные принтеры для другой печати для дерева*).
+Затем добавьте значения и распечатайте их.
 
 (**File: BTree.cpp**)
 ```c++
